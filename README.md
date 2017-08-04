@@ -22,7 +22,7 @@ Check out the project and `cd` into the project folder. Run `yarn install`.
 ### Run Test
 `yarn run test`
 
-Note that `scripts/test.js` checks a `process.env.CI` ENV , if it is ture, the test will not run `--watch` mode, otherwise in dev the test is run as watch mode by `Jest`.
+Note that `scripts/test.js` checks a `process.env.CI` ENV , if it is ture, the test will not run `--watch` mode, otherwise the test runs as watch mode by `Jest`.
 
 ### Run Build
 `yarn run build` produces a `/build` folder that can be served.
