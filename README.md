@@ -1,5 +1,6 @@
 # React-Redux-Saga Seed
 A really basic and simple seed project that can be used to start new React Redux project.
+
 Basic structure is generated from https://github.com/facebookincubator/create-react-app
 
 ### Project Basic Structure
@@ -20,6 +21,7 @@ Check out the project and `cd` into the project folder. Run `yarn install`.
 
 ### Run Test
 `yarn run test`
+
 Note that `scripts/test.js` checks a `process.env.CI` ENV , if it is ture, the test will not run `--watch` mode, otherwise in dev the test is run as watch mode by `Jest`.
 
 ### Run Build
