@@ -4,12 +4,13 @@ Basic structure is generated from https://github.com/facebookincubator/create-re
 
 ### Project Basic Structure
 The project tries to use folder structure as suggested by https://github.com/erikras/ducks-modular-redux.
+
 Under `src/` folder:
-- `containers`: views and layouts components.
-- `state`: modules and middlewares.
--- `modules`: each of the module inside here contains reducers, actions, sagas (operations) and test, basically all redux related files. Module is grouped by one concept only, e.g. Session, Product etc.
--- `middlewares`: any middleware configuration goes here.
--- `store.js`: this is the main file that contains the function to configure a new redux store, configuring reducers, middlewares, routing etc.
+* `containers`: views and layouts components.
+..* `state`: modules and middlewares.
+..* `modules`: each of the module inside here contains reducers, actions, sagas (operations) and test, basically all redux related files. Module is grouped by one concept only, e.g. Session, Product etc.
+..* `middlewares`: any middleware configuration goes here.
+..* `store.js`: this is the main file that contains the function to configure a new redux store, configuring reducers, middlewares, routing etc.
 
 ### Setup
 Check out the project and `cd` into the project folder. Run `yarn install`.
